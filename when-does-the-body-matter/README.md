@@ -1,6 +1,6 @@
 # When Does the Body Matter?
 
-Code, data, and supplementary materials for the paper:
+Code, data, and supplementary materials for the preprint:
 
 **Lucken, C.** When Does the Body Matter? A Dynamical Signature of Coupling Dependence in Evolved Neural Controllers. Submitted to *SAB 2026: Simulation of Adaptive Behavior — From Animals to Animats*.
 
@@ -71,14 +71,11 @@ Outputs land in the same JSON format used in `data/`. Results are deterministic 
 ## Citation
 
 ```bibtex
-@inproceedings{Lucken2026WhenBody,
   author    = {Lucken, Collin},
   title     = {When Does the Body Matter? A Dynamical Signature of Coupling
                Dependence in Evolved Neural Controllers},
-  booktitle = {From Animals to Animats 18: Proceedings of the 18th International
-               Conference on the Simulation of Adaptive Behavior (SAB 2026)},
   year      = {2026},
-  note      = {Forthcoming}
+  note      = {Under Review}
 }
 ```
 
