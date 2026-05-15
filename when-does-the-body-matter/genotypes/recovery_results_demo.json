@@ -1,0 +1,30 @@
+[
+  {
+    "condition_id": "n2_s42",
+    "seed": 42,
+    "network_size": 2,
+    "best_fitness": 0.9264939539747482,
+    "genotype_file": "../genotypes/genotype_n2_s42.npy"
+  },
+  {
+    "condition_id": "n3_s42",
+    "seed": 42,
+    "network_size": 3,
+    "best_fitness": 0.9280633271949138,
+    "genotype_file": "../genotypes/genotype_n3_s42.npy"
+  },
+  {
+    "condition_id": "n2_s137",
+    "seed": 137,
+    "network_size": 2,
+    "best_fitness": 0.9130193744328784,
+    "genotype_file": "../genotypes/genotype_n2_s137.npy"
+  },
+  {
+    "condition_id": "n3_s137",
+    "seed": 137,
+    "network_size": 3,
+    "best_fitness": 0.9364187127951957,
+    "genotype_file": "../genotypes/genotype_n3_s137.npy"
+  }
+]

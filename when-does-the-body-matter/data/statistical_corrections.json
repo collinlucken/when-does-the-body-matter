@@ -1,0 +1,248 @@
+{
+  "fdr_correction": [
+    {
+      "test": "Network size vs ED (Spearman, n=60)",
+      "raw_p": 0.002,
+      "fdr_q": 0.0047272727272727275,
+      "significant": "True"
+    },
+    {
+      "test": "Network size vs ED (Pearson, n=60)",
+      "raw_p": 0.002,
+      "fdr_q": 0.0047272727272727275,
+      "significant": "True"
+    },
+    {
+      "test": "Kruskal-Wallis across sizes (n=60)",
+      "raw_p": 0.048,
+      "fdr_q": 0.052,
+      "significant": "False"
+    },
+    {
+      "test": "Mann-Whitney small vs large (n=60)",
+      "raw_p": 0.001,
+      "fdr_q": 0.002888888888888889,
+      "significant": "True"
+    },
+    {
+      "test": "Seed effects ANOVA F-test (n=60)",
+      "raw_p": 0.038,
+      "fdr_q": 0.042956521739130435,
+      "significant": "True"
+    },
+    {
+      "test": "Growth rate vs ED (n=60)",
+      "raw_p": 0.0001,
+      "fdr_q": 0.0006500000000000001,
+      "significant": "True"
+    },
+    {
+      "test": "Participation ratio vs ED (n=60)",
+      "raw_p": 0.016,
+      "fdr_q": 0.021894736842105265,
+      "significant": "True"
+    },
+    {
+      "test": "Fraction amplifying vs ED (n=60)",
+      "raw_p": 0.0001,
+      "fdr_q": 0.0006500000000000001,
+      "significant": "True"
+    },
+    {
+      "test": "Max Lyapunov vs ED (n=60)",
+      "raw_p": 0.018,
+      "fdr_q": 0.023399999999999997,
+      "significant": "True"
+    },
+    {
+      "test": "Self-connection vs ED (Spearman, n=42)",
+      "raw_p": 0.005,
+      "fdr_q": 0.008666666666666666,
+      "significant": "True"
+    },
+    {
+      "test": "Mann-Whitney SC high vs low ED (n=42)",
+      "raw_p": 0.019,
+      "fdr_q": 0.023523809523809523,
+      "significant": "True"
+    },
+    {
+      "test": "Max real eigenvalue vs ED (n=42)",
+      "raw_p": 0.033,
+      "fdr_q": 0.03900000000000001,
+      "significant": "True"
+    },
+    {
+      "test": "Mann-Whitney eigenvalue high vs low (n=42)",
+      "raw_p": 0.005,
+      "fdr_q": 0.008666666666666666,
+      "significant": "True"
+    },
+    {
+      "test": "Input sensitivity vs ED (n=42)",
+      "raw_p": 0.0001,
+      "fdr_q": 0.0006500000000000001,
+      "significant": "True"
+    },
+    {
+      "test": "Mean max eigenvalue at FPs vs ED (n=42)",
+      "raw_p": 0.0001,
+      "fdr_q": 0.0006500000000000001,
+      "significant": "True"
+    },
+    {
+      "test": "Trajectory variance vs ED (n=42)",
+      "raw_p": 0.0002,
+      "fdr_q": 0.0010400000000000001,
+      "significant": "True"
+    },
+    {
+      "test": "Number of regimes vs ED (n=42)",
+      "raw_p": 0.0005,
+      "fdr_q": 0.002166666666666667,
+      "significant": "True"
+    },
+    {
+      "test": "Number of bifurcations vs ED (n=42)",
+      "raw_p": 0.0009,
+      "fdr_q": 0.002888888888888889,
+      "significant": "True"
+    },
+    {
+      "test": "Stable FP fraction vs ED (n=42)",
+      "raw_p": 0.014,
+      "fdr_q": 0.02022222222222222,
+      "significant": "True"
+    },
+    {
+      "test": "SC -> eigenvalue (n=42)",
+      "raw_p": 0.004,
+      "fdr_q": 0.008,
+      "significant": "True"
+    },
+    {
+      "test": "SC -> ED controlling eigenvalue (n=42)",
+      "raw_p": 0.19,
+      "fdr_q": 0.19760000000000003,
+      "significant": "False"
+    },
+    {
+      "test": "Input sensitivity partial (controlling bif count, n=42)",
+      "raw_p": 0.0007,
+      "fdr_q": 0.0026000000000000003,
+      "significant": "True"
+    },
+    {
+      "test": "Bifurcation count partial (controlling IS, n=42)",
+      "raw_p": 0.72,
+      "fdr_q": 0.72,
+      "significant": "False"
+    },
+    {
+      "test": "MW bifurcations high vs low ED (n=42)",
+      "raw_p": 0.004,
+      "fdr_q": 0.008,
+      "significant": "True"
+    },
+    {
+      "test": "MW trajectory variance high vs low (n=42)",
+      "raw_p": 0.009,
+      "fdr_q": 0.013764705882352941,
+      "significant": "True"
+    },
+    {
+      "test": "MW eigenvalue at FPs high vs low (n=42)",
+      "raw_p": 0.009,
+      "fdr_q": 0.013764705882352941,
+      "significant": "True"
+    }
+  ],
+  "loocv": {
+    "n": 42,
+    "full_accuracy": 0.9285714285714286,
+    "full_misclassifications": 3,
+    "loocv_accuracy": 0.9285714285714286,
+    "loocv_misclassifications": 3,
+    "note": "LOOCV equals resubstitution because classification rules use fixed thresholds, not data-derived boundaries.",
+    "type_counts": {
+      "A": 15,
+      "B": 5,
+      "C": 22
+    },
+    "type_mean_eds": {
+      "A": 0.5148816307523608,
+      "B": 0.11772480457679062,
+      "C": 0.4563931791088789
+    },
+    "type_std_eds": {
+      "A": 0.2705713112657093,
+      "B": 0.137285955321093,
+      "C": 0.23332434377758252
+    },
+    "misclassified_cases": [
+      {
+        "idx": 7,
+        "type": "A",
+        "ed_cat": "low",
+        "ed": 0.1686530408637274,
+        "misclassified": true
+      },
+      {
+        "idx": 11,
+        "type": "A",
+        "ed_cat": "low",
+        "ed": 0.1625445884672047,
+        "misclassified": true
+      },
+      {
+        "idx": 12,
+        "type": "A",
+        "ed_cat": "low",
+        "ed": 0.1649464818352299,
+        "misclassified": true
+      }
+    ]
+  },
+  "bootstrap_cis": {
+    "network_size_vs_ED_n60": {
+      "rho": 0.3923824680606111,
+      "ci_low": 0.14420657304211112,
+      "ci_high": 0.5925591695497835
+    },
+    "growth_rate_vs_ED_n60": {
+      "rho": 0.5793372152636692,
+      "ci_low": 0.38988376914438433,
+      "ci_high": 0.7242769422998703
+    },
+    "input_sensitivity_vs_ED_n42": {
+      "rho": 0.6602649817015508,
+      "ci_low": 0.4769498650191089,
+      "ci_high": 0.797122307677421
+    },
+    "bifurcation_count_vs_ED_n42": {
+      "rho": 0.4921829684538958,
+      "ci_low": 0.2536109665605663,
+      "ci_high": 0.6754678903630338
+    },
+    "self_connection_vs_ED_n42": {
+      "rho": 0.42145780189368753,
+      "ci_low": 0.11736697913627092,
+      "ci_high": 0.6611200613053465
+    },
+    "max_eigenvalue_vs_ED_n42": {
+      "rho": 0.32997042286312167,
+      "ci_low": 0.02422584254033894,
+      "ci_high": 0.5911626935953233
+    },
+    "SC_vs_ED_partial_eigenvalue_n42": {
+      "rho": 0.3284174702212139,
+      "ci_low": 0.00851879804944782,
+      "ci_high": 0.5673665343629608
+    },
+    "IS_vs_ED_partial_bifcount_n42": {
+      "rho": 0.4735626599243818,
+      "ci_low": 0.18446594838482394,
+      "ci_high": 0.6884209080577866
+    }
+  }
+}
